@@ -1,0 +1,128 @@
+/* .grid {
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+
+.grid.wide {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -4px;
+    margin-right: -4px;
+} */
+
+/* PC */
+@media (min-width: 1024px) {
+
+}
+
+/* Tablet & Mb */
+@media (max-width: 1023px) {
+    .people-btn {
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #footer .socials-list {
+        font-size: 48px;
+    }
+
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+
+    #footer .coppyright,
+    #footer .coppyright a {
+        padding: 12px 0;
+        font-size: 30px;
+        display: inline-block;
+    }
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+    .s-full-width {
+        width: 100% !important;
+    }
+    
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+    
+    #header .search-btn {
+            display: none;
+        }
+    
+    #header .mobile-menu-btn {
+            display: block;
+        }
+
+    #nav {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #content .text-center {
+        margin-top: 30px;
+        width: 50%
+    }
+
+    #content .member-img {
+        width: auto;
+    }
+
+    #slider .text-content {
+        display: none;
+    }
+
+    .contact-form {
+        margin-top: 32px;
+    }
+}
